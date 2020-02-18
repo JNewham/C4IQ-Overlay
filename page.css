@@ -94,3 +94,30 @@ body {
 .clipped { clip-path: inset(0px 50% 0px 50%) !important; }
 .scroll-left { left: 921px !important; }
 .scroll-right { right: 921px !important; }
+
+.countries {
+    position: absolute;
+    top: -4px;
+}
+
+.countries.c1 { left: 280px; }
+.countries.c2 { right: 280px; }
+
+.flag {
+    width: 66px;
+    height: 37px;
+    background-position: center;
+    background-size: cover;
+}
+
+.flag.BEL { background-image: url('http://data.8wr.io/sba/142/Country/BEL.png') }
+.flag.FRA { background-image: url('http://data.8wr.io/sba/142/Country/FRA.png') }
+.flag.GER { background-image: url('http://data.8wr.io/sba/142/Country/GER.png') }
+.flag.GRE { background-image: url('http://data.8wr.io/sba/142/Country/GRE.png') }
+.flag.ITA { background-image: url('http://data.8wr.io/sba/142/Country/ITA.png') }
+.flag.NET { background-image: url('http://data.8wr.io/sba/142/Country/NET.png') }
+.flag.NOR { background-image: url('http://data.8wr.io/sba/142/Country/NOR.png') }
+.flag.POL { background-image: url('http://data.8wr.io/sba/142/Country/POL.png') }
+.flag.SPA { background-image: url('http://data.8wr.io/sba/142/Country/SPA.png') }
+.flag.UK { background-image: url('http://data.8wr.io/sba/142/Country/UK.png') }
+.flag.VEN { background-image: url('http://data.8wr.io/sba/142/Country/VEN.png') }

@@ -28,12 +28,14 @@ if (check == 2) {
             .queue(elemHide('.players'))
             .queue(elemHide('#left-arrow'))
             .queue(elemHide('#right-arrow'))
+            .queue(elemHide('.countries'))
             .queue(elemHide('#top-bar')).delay(500)
             .queue(elemUpdate()).delay(500)
             .queue(elemShow('.players'))
             .queue(elemShow('.scores'))
             .queue(elemShow('#left-arrow'))
             .queue(elemShow('#right-arrow'))
+            .queue(elemShow('.countries'))
             .queue(elemShow('#top-bar'));
     }
     else if ($('#players_1s').text() != docData['players_1s'] ||
@@ -50,3 +52,9 @@ if (check == 2) {
 
     }
 }
+
+let c1 = docData['country_1'].split('||');
+let c2 = docData['country_2'].split('||');
+
+$('#c1 .flag').removeClass().addClass('flag ' +c1[0]);
+$('#c2 .flag').removeClass().addClass('flag ' +c2[0]);
