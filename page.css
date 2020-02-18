@@ -1,0 +1,96 @@
+body {
+    margin: 0 !important;
+}
+
+#left-arrow {
+    position: absolute;
+    top: -12px;
+    left: 175px;
+    background-image: url('http://data.8wr.io/sba/376/SD Left.png');
+    width: 31px;
+    height: 67px;
+}
+
+#right-arrow {
+    position: absolute;
+    top: -12px;
+    right: 175px;
+    background-image: url('http://data.8wr.io/sba/376/SD Right.png');
+    width: 31px;
+    height: 67px;
+}
+
+#top-container {   
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    clip-path: inset(0px 0% 0px 0%);
+}
+
+#top-bar {
+    position: absolute;
+    width: 292px;
+    height: 30px;
+    top: -0px;
+    left: 815px;
+    background-image: url('http://data.8wr.io/sba/376/version 2/Top-Middle-5.png');
+}
+
+#tournament-name_1 {
+    position: absolute;
+    width: 313px;
+    height: 35px;
+    bottom: 0px;
+    left: 808px;
+    background-image: url('http://data.8wr.io/sba/376/version 2/Bottom.png');
+    text-align: center;
+    line-height: 35px;
+}
+
+
+.players
+{
+    position: absolute;
+    top: -0px;
+    width: 560px;
+    height: 44px;
+    line-height: 38px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.players.p1 { 
+    left: 270px;
+    background-image: url('http://data.8wr.io/sba/376/version 2/P1.png');
+}
+.players.p2 { 
+    right: 270px; 
+    background-image: url('http://data.8wr.io/sba/376/version 2/P2.png');
+}
+
+
+.scores
+{
+    position: absolute;
+    width: 65px;
+    height: 44px;
+    line-height: 37px;
+    text-align: center;
+    font-size: 30px;
+}
+.scores.s1 { 
+    left: 205px;
+    background-image: url('http://data.8wr.io/sba/376/version 2/S1.png'); 
+    top: 0px;
+}
+.scores.s2 { 
+    right: 205px;
+    background-image: url('http://data.8wr.io/sba/376/version 2/S2.png'); 
+    top: 0px;
+}
+
+.hidden { top: -70px !important; }
+.bot-hidden { bottom: -70px !important; }
+.clipped { clip-path: inset(0px 50% 0px 50%) !important; }
+.scroll-left { left: 921px !important; }
+.scroll-right { right: 921px !important; }

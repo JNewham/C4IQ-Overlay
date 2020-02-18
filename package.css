@@ -1,0 +1,13 @@
+body
+{
+    color: white;
+    font-family: Arial Black;
+    text-shadow: 3px 3px black;
+    text-transform: uppercase;
+
+}
+
+.slow { transition: all 0.50s ease-out; }
+.very-slow { transition: all 1.50s linear; }
+.fast { transition: all 0.25s ease-in; }
+.arrows { transition: all 1.19s linear; }
